@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "privacy": "unlisted",
+    "sdkVersion": "23.0.0",
+    "orientation": "portrait",
+    "version": "1.0.0",
+    "name": "Mobile Flashcards",
+    "slug": "mobile-flashcards",
+    "description": "FlashCards App for Udacity React Nanodegree",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "icon": "./assets/app-icon.png",
+    "notification": {
+      "icon": "./assets/notification-icon.png"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "mobile-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "23.0.0",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "expo": "^23.0.4",
+    "husky": "^0.14.3",
+    "native-base": "^2.3.6",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-navigation": "^1.0.0-beta.23",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "rn-deck-swiper": "^1.4.7"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
+  }
+}
